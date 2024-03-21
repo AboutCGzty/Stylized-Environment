@@ -238,7 +238,7 @@ Material:
     - _crestRadius: 1.5
     - _crestRange: 1.45
     - _deepOpacity: 0.9
-    - _deepRange: 3
+    - _deepRange: 4
     - _detailNormalSpread: 1
     - _foamSpread: 0
     - _fresnelIntensity: 1.5
@@ -263,7 +263,7 @@ Material:
     - _reflectionDisort: 0.3
     - _reflectionDisortFadeOut: 1
     - _reflectionIntensity: 0.4
-    - _refractionIntensity: 0.3
+    - _refractionIntensity: 0.4
     - _rippleFadeOut: 2.5
     - _smallRippleIntensity: 2
     - _smallRippleSpeed: 0.1
@@ -276,7 +276,7 @@ Material:
     - _waveFadeEnd: 150
     - _waveFadeStart: 0
     - _waveHeight: 1
-    - _waveNormalStr: 0.2
+    - _waveNormalStr: 0.3
     - _waveScale: 0.875
     - _waveSpeed: 2
     m_Colors:
@@ -295,8 +295,8 @@ Material:
     - _WaveColor: {r: 0.3686275, g: 0.6431373, b: 0.9137255, a: 0}
     - _causticsColor: {r: 0.6392157, g: 0.91764706, b: 0.8091923, a: 0}
     - _causticsParams: {r: 0.1, g: 0.1, b: 1, a: 0.07}
-    - _deepColor: {r: 0.11532369, g: 0.30817598, b: 0.3075091, a: 0}
-    - _detialDirectionA: {r: 0, g: 0, b: 0, a: 0.1}
+    - _deepColor: {r: 0.077864744, g: 0.19496846, b: 0.19262639, a: 0}
+    - _detialDirectionA: {r: 0, g: 0, b: 0, a: 0.17}
     - _detialDirectionB: {r: 0, g: 0, b: 0, a: 0.1}
     - _detialRippleParams: {r: 0.03, g: 0.03, b: 0.2, a: 0.07}
     - _detialRippleParamsA: {r: 0.03, g: 0.03, b: 0.5, a: 0}

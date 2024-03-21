@@ -14,7 +14,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -148,7 +148,7 @@ Material:
     - _WindIntensity: 0.2
     - _WindLineColorGradient: 1
     - _WindLineDirection: 0.2
-    - _WindLineIntensity: 0.73
+    - _WindLineIntensity: 0.9
     - _WindLineRotate: 0.8
     - _WindLineScale: 50
     - _WindLineTilling: 500
