@@ -12271,15 +12271,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1143511708631544331, guid: 1e551e07304c07341a1d74d4e3911e52,
-        type: 3}
-      propertyPath: m_ReceiveGI
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1503759889947956190, guid: 1e551e07304c07341a1d74d4e3911e52,
         type: 3}
       propertyPath: m_Name
       value: Boat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503759889947956190, guid: 1e551e07304c07341a1d74d4e3911e52,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 2275933043952994660, guid: 1e551e07304c07341a1d74d4e3911e52,
         type: 3}
@@ -12330,6 +12330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976638333618281866, guid: 1e551e07304c07341a1d74d4e3911e52,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
