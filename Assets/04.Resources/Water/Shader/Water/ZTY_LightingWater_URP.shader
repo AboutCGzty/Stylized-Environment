@@ -296,12 +296,12 @@ Shader "ZTY/LightingWater/URP"
                     float4 depthToWorldPosition = ReconstructWorldPosition(_CameraDepthTexture, sampler_CameraDepthTexture, screenPosition.xy, input.pos_view);
                     float3 causticsRefractionUV = GetRippleNormal(_ripple, sampler_ripple, depthToWorldPosition.xz * 10, _smallRippleParamsA * 0.1, _smallRippleParamsB * 0.1, rippleDirectionA, rippleDirectionB);
                     causticsRefractionUV = normalize(mul(causticsRefractionUV, matrix_TBN));
-                    float causticsMask = (1 - depth_water) * depth_water * depth_water;
+                    float causticsMask = (1 - depth_water) * depth_water * depth_water * (1 - depth_water) ;
                     color_caustics = GetCausticsColor(_causticsColor.xyz, causticsMask, _causticsMap, sampler_causticsMap, depthToWorldPosition.xz, _causticsParams, causticsRefractionUV.xz, _causticsDisort);
                     float causticsFactor = GetFresnelFactor(finalWorldNormal, cameraPosition, _causticsFadeOut, 3);
                     color_caustics *= causticsFactor;
+                    color_caustics = lerp(color_caustics * 0.25, color_caustics, shadowAttenuation);
                 #endif
-
                 ////////////////////////////
                 //    Refraction Color    //
                 ////////////////////////////

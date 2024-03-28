@@ -89,7 +89,7 @@ float3 GetCausticsColor(float3 Color, float Mask, Texture2D causticsTex, sampler
     float2 uv_Caustics = UV * causticsParams.xy + distortDir * distortStrength;
     float speed_Caustics = causticsParams.w * _Time.y;
 
-    float3 caustics_A = SAMPLE_TEXTURE2D(causticsTex, causticsSampler, uv_Caustics + speed_Caustics * float2(0.6157, 1.3268)).xyz;
+    float3 caustics_A = SAMPLE_TEXTURE2D(causticsTex, causticsSampler, uv_Caustics + speed_Caustics * float2(1.3268, 0.6157)).xyz;
     float3 caustics_B = SAMPLE_TEXTURE2D(causticsTex, causticsSampler, -uv_Caustics + speed_Caustics * float2(0.8335, 1.6724)).xyz;
 
     return min(caustics_A, caustics_B) * max(0.0, causticsParams.z) * Color * Mask;

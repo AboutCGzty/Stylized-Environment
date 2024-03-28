@@ -230,14 +230,14 @@ Material:
     - _YTilling: 1
     - _ZWrite: 1
     - _causticsDisort: 2
-    - _causticsFadeOut: 6
+    - _causticsFadeOut: 1
     - _causticsIntensity: 0.3
     - _causticsTilling: 0.1
     - _crestDisort: 0
     - _crestIntensity: 0.5
     - _crestRadius: 1.5
     - _crestRange: 1.45
-    - _deepOpacity: 0.9
+    - _deepOpacity: 0.95
     - _deepRange: 4
     - _detailNormalSpread: 1
     - _foamSpread: 0
@@ -293,8 +293,8 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubWaveDirection: {r: -1, g: -1, b: -1, a: -1}
     - _WaveColor: {r: 0.3686275, g: 0.6431373, b: 0.9137255, a: 0}
-    - _causticsColor: {r: 0.6392157, g: 0.91764706, b: 0.8091923, a: 0}
-    - _causticsParams: {r: 0.1, g: 0.1, b: 1, a: 0.07}
+    - _causticsColor: {r: 0.45909965, g: 0.8742138, b: 0.7105068, a: 0}
+    - _causticsParams: {r: 0.12, g: 0.15, b: 6, a: 0.12}
     - _deepColor: {r: 0.077864744, g: 0.19496846, b: 0.19262639, a: 0}
     - _detialDirectionA: {r: 0, g: 0, b: 0, a: 0.17}
     - _detialDirectionB: {r: 0, g: 0, b: 0, a: 0.1}
@@ -307,7 +307,7 @@ Material:
     - _foamParams: {r: 0.03, g: 0.03, b: 0.1, a: 0.07}
     - _fresnelColor: {r: 0.35531622, g: 0.4671426, b: 0.5566038, a: 1}
     - _largeRippleParams: {r: 0.05, g: 0.05, b: 1.5, a: 0.1}
-    - _shallowColor: {r: 0.7, g: 0.8, b: 0.6, a: 0}
+    - _shallowColor: {r: 0.7830479, g: 0.8679245, b: 0.7014358, a: 0}
     - _smallRippleParams: {r: 0.05, g: 0.05, b: 0.1, a: 0.2}
     - _smallRippleParamsA: {r: 0.05, g: 0.05, b: 0.4, a: 0}
     - _smallRippleParamsB: {r: 0.1, g: 0.1, b: 0.5, a: 0}
